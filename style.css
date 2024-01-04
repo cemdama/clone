@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+   
+    height: 60px;
+    background-color: #101111;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-logo{
+width: 100px;
+height: 50px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.logo img{
+   width: 100%;
+   height: 50px;
+}
+.border{
+    border: 1px solid transparent;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    padding: 5px;
+}
+.border:hover{
+    border: 1px solid white;
+}
+.add-first{
+    color: #c9c9c9;
+ font-size: 13.6px;
+ margin-left: 3px;
+}
+.add-second{
+    font-size: 16px;
+    margin-left: 3px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.nav-search{
+    display: flex;
+   justify-content: space-evenly;
+   width: 620px;
+   height: 40px;
+  
+  border-radius: 4px;
+  margin-top: 10px;
+
+}
+.serach-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius:4px ;
+    border: none;
+    outline: none;
+}
+.search-input{
+    width: 100%;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    text-indent: 5px;
+}
+.search-icon{
+   width: 45px;
+   background-color: #fabd68;
+   color: black;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   cursor: pointer;
+   font-size: 19px;
+   border-top-right-radius: 4px;
+   border-bottom-right-radius: 4px;
+
+}
+span{
+    font-size: 11px;
+    font-weight: 700;
+}
+.nav-search:hover{
+border: 1px solid #fabd68;
+}
+.nav-card i{
+    font-size: 30px;
+}
+.nav-card{
+    font-size: 13.6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+.panel{
+    background-color: #222f3d;
+    height: 40px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.panel-ops{
+    width: 70%;
+}
+.panel-ops p{
+    display: inline-flex;
+    margin-left: 15px;
+    height: 40px;
+}
+.panel-deals{
+    font-size: 15px;
+    font-weight: 700;
+    padding: 0 3px;
+}
+.hero-section {
+    background-image: url("./images/hero_image.jpg");
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .hero-msg {
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    margin-bottom: 25px;
+    font-size: 14px;
+  }
+  .hero-msg a{
+    color: #6ca6b3;
+    text-decoration: none;
+    margin-left: 3px;
+  }
+  .shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #E2E7E6;
+  }
+  .box{
+    height: 420px;
+    width: 24.2%;
+    background-color: white;
+    padding: 20px 15px;
+    margin-top: 15px;
+  }
+  .box-img{
+    height: 300px;
+    background-size: cover;
+    margin: 16px 0;
+
+  }
+  .box-content p{
+    color: #6ca6b3;
+ 
+  }
+  .box-content:hover{
+    transform: scale(0.85);
+  }
+  .container{
+    background-color:#e4e4e4 ;
+  }
+  .title{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px 10px;
+  }
+  .title a{
+    text-decoration: none;
+    color: #6ca6b3;
+  }
+  .title a:hover{
+    text-decoration: underline;
+  }
+  .boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   
+  }
+  .box1{
+    height: 335px;
+    width: 250px;
+   
+    background-color: white;
+    padding: 10px 20px;
+  }
+  .image img{
+    height: 250px;
+    width: 100%;
+  }
+  .box1-content{
+   display: flex;
+  
+ 
+   align-items: center;
+   justify-content: start;
+  
+
+  }
+  .box1-content p{
+    color: #cc0a39;
+    font-size: 10px;
+ 
+   
+  }
+  .box1-content p span{
+    font-size: 10px;
+    background-color: #cc0a39;
+    color: white;
+    margin-right: 6px;
+  }
